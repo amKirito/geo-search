@@ -1,0 +1,27 @@
+body{
+    background-color: #92a9b3;
+    opacity: 0.85;
+}
+.pageContainer {
+    width: 95%;
+    margin: auto;
+}
+.pageContent{
+    color: #ec54f6;
+    width:100%;
+    border: 1px solid #558ABB;
+    margin: 2rem auto;
+    border-radius: 0.5rem 0.5rem 0.15rem 0.15rem;
+    box-shadow: 3px 10px 10px -7px rgba(0,0,0,0.8);
+}
+
+.Header {
+    font-family: "Lucida Calligraphy",Courier, monospace;
+    font-size: 2rem;
+    line-height: 1;
+    background-color: #EEEEEE;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 10px 10px -7px rgba(0,0,0,0.8);
+}

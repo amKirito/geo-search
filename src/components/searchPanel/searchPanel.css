@@ -1,0 +1,26 @@
+.SearchBox-container {
+    text-align: center;
+    background-color: #558ABB;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem 0.5rem 0.15rem 0.15rem;
+}
+.searchBox-main {
+    border: 2px solid #558ABB;
+    border-radius: 5px;
+    height: 1.75rem;
+    text-align: center;
+    width: 15rem;
+}
+.countryDropdown-select {
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.Button{
+    background-color: #0095DD;
+    color: #DDE4E9;
+    border-radius: 5px;
+    height: 2rem;
+    width: 5rem;
+    position: relative;
+}

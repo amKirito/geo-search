@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin: auto;
+    font-size: 1rem;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+thead{
+    background-color: #194257;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 1.05rem;
+    height: 2rem;
+}
+tbody{
+    font-family: "Open Sans",sans-serif;
+    color: #16697B;
+}
+tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+.searchResult {
+    box-shadow: 3px 10px 10px -7px rgba(0,0,0,0.8);
+    margin: 6px;
+}
+.searchResult-message {
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    color: #16697B;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f2f2f2;
+}
+
+@media all and (max-width: 40.0625rem) {
+    thead {
+        font-size: 0.75rem;
+    }
+    tbody {
+        font-size: 0.5rem;
+    }
+}
